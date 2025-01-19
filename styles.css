@@ -1,0 +1,101 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: "Arial", sans-serif; /* Changed to a more modern font */
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #0f0e0e;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(235, 231, 231, 0.1);
+    background-color: #181717;
+    text-align: center;
+    transition: all 0.3s ease; /* Smooth transitions */
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #006EB6; /* Light blue for readability in light theme */
+    font-style: italic;
+    margin-bottom: 20px;
+    transition: color 0.3s ease; /* Smooth transitions for color change */
+}
+
+/* Main Content Styling */
+main p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+main em {
+    font-style: italic;
+    font-weight: bold;
+}
+
+main ol {
+    text-align: left;
+    margin-left: 30px;
+    padding-left: 0;
+}
+
+main ol li {
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 30px;
+}
+
+footer img {
+    width: 140px;
+    transition: all 0.3s ease; /* Smooth transition for logo */
+}
+
+/* Dark theme styles */
+.dark {
+    background-color: #121212; /* Dark background */
+    color: rgb(37, 35, 35); /* White text */
+}
+
+.dark h2 {
+    color: #A8D8EA; /* Lighter blue for subtitle in dark theme */
+}
+
+.dark #logo {
+    content: url('byui-logo-white.png'); /* Placeholder for white logo */
+}
+
+/* Select styling */
+#theme-selector {
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px 0;
+    cursor: pointer;
+}
