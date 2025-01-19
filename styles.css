@@ -11,7 +11,7 @@ body {
     font-size: 18px;
     line-height: 1.6;
     background-color: #ffffff;
-    color: #0f0e0e;
+    color: #000000;
     margin: 0;
     padding: 0;
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
@@ -23,8 +23,8 @@ body {
     margin: 50px auto;
     padding: 30px;
     border: 1px solid #ddd;
-    box-shadow: 0 4px 12px rgba(235, 231, 231, 0.1);
-    background-color: #181717;
+    box-shadow: 0 4px 12px hsla(0, 6%, 93%, 0.96);
+    background-color: #0e0d0d;
     text-align: center;
     transition: all 0.3s ease; /* Smooth transitions */
 }
