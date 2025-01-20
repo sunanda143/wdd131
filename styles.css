@@ -7,11 +7,9 @@
 
 /* Body Styling */
 body {
-    font-family: "Arial", sans-serif; /* Changed to a more modern font */
+    font-family: "Arial", sans-serif; 
     font-size: 18px;
     line-height: 1.6;
-    background-color: #ffffff;
-    color: #f3efef;
     margin: 0;
     padding: 0;
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
@@ -24,7 +22,8 @@ body {
     padding: 30px;
     border: 1px solid #ddd;
     box-shadow: 0 4px 12px hsla(0, 6%, 93%, 0.96);
-    background-color: #0e0d0d;
+    background-color: #ffffff; /* Default light background */
+    color: #333333; /* Default dark text for light mode */
     text-align: center;
     transition: all 0.3s ease; /* Smooth transitions */
 }
@@ -40,10 +39,10 @@ header h1 {
 
 header h2 {
     font-size: 1.5em;
-    color: #006EB6; /* Light blue for readability in light theme */
+    color: #006EB6; 
     font-style: italic;
     margin-bottom: 20px;
-    transition: color 0.3s ease; /* Smooth transitions for color change */
+    transition: color 0.3s ease; 
 }
 
 /* Main Content Styling */
@@ -75,21 +74,26 @@ footer {
 
 footer img {
     width: 140px;
-    transition: all 0.3s ease; /* Smooth transition for logo */
+    transition: all 0.3s ease; 
 }
 
 /* Dark theme styles */
 .dark {
-    background-color: #121212; /* Dark background */
-    color: rgb(37, 35, 35); /* White text */
+    background-color: #121212; 
+    color: #ffffff; 
+}
+
+.dark .container {
+    background-color: #1e1e1e; 
+    color: #ffffff;
 }
 
 .dark h2 {
-    color: #A8D8EA; /* Lighter blue for subtitle in dark theme */
+    color: #A8D8EA; 
 }
 
 .dark #logo {
-    content: url('byui-logo-white.png'); /* Placeholder for white logo */
+    content: url('byui-logo-white.png'); 
 }
 
 /* Select styling */
