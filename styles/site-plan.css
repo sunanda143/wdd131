@@ -1,0 +1,170 @@
+/* General Reset and Body Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif, Arial, sans-serif;
+font-family: 'Rock Salt', cursive, Georgia, serif;
+  line-height: 1.6;
+  background-color: #fefae0;
+  color: #283618;
+  padding: 20px;
+  margin: 0;
+}
+
+header {
+  background-color: #606c38;
+  color: #fefae0;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  font-family: 'Rock Salt', cursive;
+  font-size: 3rem;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+hr {
+  border: 1px solid #bc6c25;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+/* Branding Section */
+img {
+  max-width: 50%;  /* Adjust percentage as needed for smaller size */
+  height: auto;
+  border: 2px solid #bc6c25;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #606c38;
+  color: #fefae0;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Style for the Site Map */
+.sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.sitemap div {
+  background-color: #283618;
+  color: #fefae0;
+  padding: 10px;
+  border-radius: 5px;
+  width: 23%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.sitemap div:hover {
+  background-color: #606c38;
+  cursor: pointer;
+}
+
+/* Color Palette */
+.primary {
+  color: #606c38;
+}
+
+.secondary {
+  color: #283618;
+}
+
+/* Buttons and Interactive Elements */
+button {
+  background-color: #bc6c25;
+  color: #fefae0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #606c38;
+}
+
+button:focus {
+  outline: 2px solid #bc6c25;
+}
+
+/* List Styling for Eco-Friendly Products */
+ul {
+  list-style: none;
+  margin: 20px 0;
+}
+
+ul li {
+  background-color: #283618;
+  color: #fefae0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+ul li strong {
+  font-weight: bold;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .sitemap div {
+    width: 48%;
+  }
+}
+
+@media (max-width: 480px) {
+  .sitemap div {
+    width: 100%;
+  }
+}
+
+/* Navigation Links */
+nav a {
+  color: #283618; /* Primary color */
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color: #fefae0; /* Accent color */
+  background-color: #606c38; /* Secondary color */
+  border-radius: 5px;
+}
