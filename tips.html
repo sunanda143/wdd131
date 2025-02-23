@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Living Tips</title>
+    <link rel="stylesheet" href="styles/tips.css">
+    <script defer src="scripts/tips.js"></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Eco Living Logo" class="logo">
+        <h1>Sustainable Living Tips</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tips.html" class="active">Sustainable Living Tips</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Practical Tips for a Greener Life</h2>
+            <p>Small changes can make a big difference! Here are some simple yet effective sustainable living tips.</p>
+            <ul id="tips-list"></ul>
+        </section>
+
+        <section>
+            <h2>Random Tip Generator</h2>
+            <p>Click the button to get a random sustainability tip!</p>
+            <button id="random-tip-btn">Get a Tip</button>
+            
+            <!-- New wrapper to align tip text and image -->
+            <div id="random-tip-container">
+                <p id="random-tip"></p>
+                <img id="tip-image" src="images/sustainability.jpg" alt="Sustainability Tip">
+                <p id="tip-description"></p> <!-- Added for showing tip description -->
+            </div>
+        </section>
+
+        <section id="quiz-container">
+            <h2>Sustainability Quiz</h2>
+            <p id="question"></p>
+            <ul id="answers-list"></ul>
+            <button id="submit-answer">Submit Answer</button>
+            <p id="quiz-result"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Eco Living. All rights reserved.</p>
+    </footer>
+</body>
+</html>
